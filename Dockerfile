@@ -1,4 +1,4 @@
-FROM registry.ocp4.example.com:8443/openshift/golang:latest as builder
+FROM docker.io/library/golang:latest as builder
 
 WORKDIR /build
 ADD . /build/
